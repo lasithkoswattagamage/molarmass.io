@@ -9,7 +9,7 @@ let ERROR_STATE;
 
 // THhis function is responsible for constantly updating the large formula text with the contents of
 // input ref. Numbers are converted to a subscript so that users can see how the formula they entered
-// will be intrepreted by the molar mass calculating logic. 
+// will be intrepreted by the molar mass calculating logic.
 const updateLargeText = (e) => {
     chemFormulaRef.innerText = ""
     if (inputRef.value!=="") {
@@ -54,9 +54,9 @@ const changeMolarMassColour = (colour) => {
         molarMassRef.style.color = colour
     }
 
-    
+
     chemFormulaRef.style.color = colour
-    
+
     if (colour==="red") {;
         setTimeout(()=>{
 		document.getElementById("chemical_formula_div").classList.add("is-invalid")
@@ -72,7 +72,7 @@ const changeMolarMassColour = (colour) => {
 // While the molar mass calculating module does it's job perfectly when provided with an accurate
 // representation of the molecule, we have to assume that a user may be curious and attempt to write
 // in elements that don't exist. It is important to make user's aware of a molar mass that is incorrect
-// so that they don't use the wrong value in calculations. This function checks the last element inside a 
+// so that they don't use the wrong value in calculations. This function checks the last element inside a
 // chemical formula to see if it exists. The reason we don't have to check the entire formula is because
 // we can safely assume that the user will type a chemical formula from start to Finish
 
@@ -84,7 +84,7 @@ const formulaParser = (formula) => {
     for (let i=0;i<formula.length;i++) {
         if (formula[i].match("[A-Z]")) {
             continue
-        } 
+        }
 
     }
     console.log(listOfElements)
@@ -110,7 +110,7 @@ const fetchMolarMass = (formula,callback) => {
         ERROR_STATE = false
     } catch (err) {
         changeMolarMassColour("red")
-        molarMassRef.innerHTML = "&nbsp"
+        document.getElementById("molar_mass").innerHTML = "&nbsp"
     }
 }
 
@@ -197,6 +197,3 @@ function startOrEnd(i,formula) {
 
 // EVENT LISTENERS
 inputRef.oninput = updateLargeText
-
-
-

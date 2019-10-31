@@ -1,6 +1,6 @@
 #chemical_formula_big {
     text-align: center;
-    height: 86px;	
+    height: 86px;
 }
 
 .mdl-textfield {
@@ -25,3 +25,9 @@
       font-size: 35px;
     }
   }
+
+@media screen and (min-width: 1025px) {
+    .formula_molarmass_div {
+      height: 210px;
+    }
+}

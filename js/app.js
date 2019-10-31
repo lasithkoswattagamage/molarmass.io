@@ -31,6 +31,7 @@ const updateLargeText = (e) => {
     } else {
         chemFormulaRef.innerHTML = "&nbsp"
         document.getElementById("small_title").innerText = "Molar Mass Calculator"
+        document.getElementById("molar_mass").innerHTML = "&nbsp"
     }
 }
 

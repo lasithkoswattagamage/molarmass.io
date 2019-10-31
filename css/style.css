@@ -1,0 +1,27 @@
+#chemical_formula_big {
+    text-align: center;
+    height: 86px;	
+}
+
+.mdl-textfield {
+    width: 100%;
+}
+
+#molar_mass {
+    text-align: center;
+}
+
+.mdl-layout__header-row {
+    height: 56px;
+    padding: 0 16px 0 40px;
+}
+
+#demo-menu-lower-left {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    #chemical_formula_big {
+      font-size: 35px;
+    }
+  }

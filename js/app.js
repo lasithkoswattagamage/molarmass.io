@@ -198,3 +198,6 @@ function startOrEnd(i,formula) {
 
 // EVENT LISTENERS
 inputRef.oninput = updateLargeText
+
+// Solve the molar mass for the initial chemical
+updateLargeText();

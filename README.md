@@ -1,7 +1,7 @@
 # Molar Mass Calculator
 
 ## Live Site:
-[molarmass.net](https://lasithkoswattagamage.github.io/molarmass.io/)
+[lasithkoswattagamage.github.io/molarmass.io](https://lasithkoswattagamage.github.io/molarmass.io/)
 
 ## Description
 A Dynamic Molar Mass Calculator. Powered by the [molarmass](https://www.npmjs.com/package/molarmass) NPM library, this application will provide live molar mass updates as a chemical formula is entered. 

@@ -1,0 +1,22 @@
+{
+  "name": "molarmass.io",
+  "version": "1.0.0",
+  "description": "## Live Site:",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -p 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lasithkoswattagamage/molarmass.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lasithkoswattagamage/molarmass.io/issues"
+  },
+  "homepage": "https://github.com/lasithkoswattagamage/molarmass.io#readme",
+  "devDependencies": {
+    "http-server": "^14.1.0"
+  }
+}

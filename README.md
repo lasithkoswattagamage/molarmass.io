@@ -2,7 +2,7 @@
 
 ## Live Site:
 
-You can view a live version of this application at [https://lasithkoswattagamage.github.io/molarmass.io](https://lasithkoswattagamage.github.io/molarmass.io/)
+You can view a live version of this application at [lasithkoswattagamage.github.io/molarmass.io](https://lasithkoswattagamage.github.io/molarmass.io/)
 
 ## Description
 

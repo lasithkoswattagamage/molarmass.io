@@ -1,8 +1,8 @@
 # Molar Mass Calculator
 
-## Live Site:
-
-You can view a live version of this application at [lasithkoswattagamage.github.io/molarmass.io](https://lasithkoswattagamage.github.io/molarmass.io/)
+<a href="https://lasith-kg.github.io/molarmass.io/" target="_blank">
+    <img style="width: 10rem; height: auto" src="assets/button_live-demo.png">
+</a>
 
 ## Description
 
